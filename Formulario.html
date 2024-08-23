@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hogar & Estilo</title>
+	<link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.css">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/logos/favicon-96x96.png">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<script type="text/javascript" src="css/materialize/js/materialize.js"></script>
+</head>
+<body>
+<div class="navbar-fixed">
+	<nav>
+    <div class="nav-wrapper #ef6c00 orange darken-3">
+      <a href="#" class="brand-logo"><img src="assets/img/logo.png"></a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        &nbsp;
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li id="barra"><a href="Inicio.html">Inicio</a></li>
+        <li id="barra"><a href="#">Formulario</a></li>
+        <li id="barra"><a href="Galeria.html">Galeria</a></li>
+        <li id="barra"><a href="Grafica.html">Grafica</a></li>
+        <li id="barra"><a href="Nosotros.html">Nosotros</a></li>
+        <li id="barra"><a href="Productos.html">Productos</a></li>
+        <li id="barra"><a href="Ubicacion.html">Ubicacion</a></li>
+        <li id="barra"><a href="Videos.html">Videos</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<ul id="slide-out" class="sidenav #ffe082 amber lighten-3">
+    <li><div class="user-view">
+      <div class="center-align">
+        <a href="#"><img src="assets/img/logo.png"></a>
+      </div>
+      <a href="#name"><span class="black-text name center-align"><b>"Muebles para tu hogar, sueños para tu vida."</b></span></a>
+    </div></li>
+    <li><a class="waves-effect black-text" href="Inicio.html"><i class="fa-solid fa-house" id="icono"></i>Inicio</a></li>
+    <li><a class="waves-effect black-text" href="#"><i class="fa-solid fa-file-pen" id="icono"></i>Formulario</a></li>
+    <li><a class="waves-effect black-text" href="Galeria.html"><i class="fa-solid fa-image" id="icono"></i>Galeria</a></li>
+    <li><a class="waves-effect black-text" href="Grafica.html"><i class="fa-solid fa-chart-line" id="icono"></i>Grafica</a></li>
+    <li><a class="waves-effect black-text" href="Nosotros.html"><i class="fa-solid fa-users" id="icono"></i>Nosotros</a></li>
+    <li><a class="waves-effect black-text" href="Productos.html"><i class="fa-solid fa-couch" id="icono"></i>Productos</a></li>
+    <li><a class="waves-effect black-text" href="Ubicacion.html"><i class="fa-solid fa-map-location-dot" id="icono"></i>Ubicacion</a></li>
+    <li><a class="waves-effect black-text" href="Videos.html"><i class="fa-solid fa-video" id="icono"></i>Videos</a></li>
+    <hr style="border: 1px dotted black;">
+    <div class="center-align">
+    	<p style="color: black;"><b>Informacion del creador de la pagina web</b></p>
+       	<p style="color: red;"><b>Francisco Fabian Saldaña Sanchez</b></p>
+        <a href="https://www.facebook.com/franciscofabian.saldanasanchez.3?mibextid=ZbWKwL" target="blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+        <a href="https://www.instagram.com/franciscofabiansaldana?igsh=MXViYzJqOHUyaHdvaA==" target="blank"><i class="fa-brands fa-instagram fa-xl"></i><a/>
+        <a href="https://x.com/Francis94234495?t=JQlbdPQTD9_hQxSUubBaPQ&s=09" target="blank"><i class="fa-brands fa-x-twitter"></i></i></a>
+        <a href="https://youtube.com/@fabianexpert7152?si=QmAI09Do-u3acg6g" target="blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
+    </div>
+    <hr style="border: 1px dotted black;">
+</ul>
+
+<section id="formulario">
+  
+    <form id="contact-form">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="full_name" type="text" name="full_name" required>
+          <label for="full_name">Nombre Completo:</label>
+          <span class="helper-text" data-error="Por favor ingresa tu nombre completo"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" name="email" required>
+          <label for="email">Email:</label>
+          <span class="helper-text" data-error="Ingresa una dirección de correo electrónico válida"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">phone</i>
+          <input id="phone_number" type="tel" name="phone_number" data-inputmask="'mask': '(999) 999-9999'" maxlength="10" required>
+          <label for="phone_number">Teléfono:</label>
+          <span class="helper-text" data-error="Ingresa un número telefónico válido"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 center-align">
+          <p>Género:</p>
+          <p>
+            <label>
+              <input class="with-gap" name="gender" type="radio" value="Femenino" id="gender_f" required>
+              <span>Femenino</span>
+            </label>
+            <label>
+              <input class="with-gap" name="gender" type="radio" value="Masculino" id="gender_m" required>
+              <span>Masculino</span>
+            </label>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mode_comment</i>
+          <textarea id="comments" name="comments" class="materialize-textarea" maxlength="200" required></textarea> <!--maxleght es el maximo de caracteres-->
+          <label for="comments">Comentarios:</label>
+          <span class="helper-text" data-error="Ingresa un comentario"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 center-align">
+          <p style="color: blue;"><u>Aviso de privacidad</u></p>
+            <label>
+              <input id="privacy_agreement" type="checkbox" required>
+              <span>He leído y acepto el aviso de privacidad.</span>
+            </label>
+          <span class="helper-text" data-error="Debes aceptar el aviso de privacidad para enviar el formulario"></span>
+        </div>
+      </div>
+    </form>
+
+      <form id="contact-form">
+      <div class="row center-align">
+        <div class="col s12">
+          <button class="waves-effect waves-light btn" id="send" type="submit"><i class="fa-regular fa-paper-plane"></i> Enviar</button>
+          <button class="waves-effect waves-light btn" id="cancel" type="reset"><i class="fa-solid fa-xmark"></i> Cancelar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+<section>
+  <footer>
+   <div class="container">
+     <div class="row">
+       <div class="col s12 center-align">
+         <p><b>Copyright todos los derechos Reservados Hogar & Estilo 2024</b></p>
+         <p style="color: red;"><b>Francisco Fabian Saldaña Sanchez</b></p>
+          <a href="https://www.facebook.com/profile.php?id=61563791855445" target="blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
+          <a href="https://www.instagram.com/_hogaryestilo_?igsh=MW00bzV6b2ppMGVrbA==" target="blank"><i class="fa-brands fa-instagram fa-xl"></i><a/>
+          <a href="#" target="blank"><i class="fa-brands fa-x-twitter"></i></i></a>
+          <a href="#" target="blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
+       </div>
+     </div>
+   </div> 
+</footer>
+</section>
+
+
+</body>
+<script type="text/javascript" src="js/funciones_formulario.js"></script>
+</html>

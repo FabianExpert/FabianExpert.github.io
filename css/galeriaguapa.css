@@ -1,0 +1,18 @@
+#seption{
+  display: flex; /*Establece el contenedor como un elemento de flexbox*/
+  width: 600px;
+  height: 430px;
+}
+#seption img{
+  width: 0px; /*establece que las img ocupen todo el espacio disponible dentro del contenedor*/
+  flex-grow: 1; /* las imágenes deben crecer para ocupar todo el espacio disponible dentro del contenedor*/
+  object-fit: cover; /*las img cubriran todo el espacio del contenedor, incluso si las proporciones no coinciden.*/
+  opacity: .8; /*baja la opacidad de las iamgenes*/
+  transition: .5s ease; /*Aplica una animacion de 0.5 segundos al cambio de la opacidad y el ancho*/
+}
+#seption img:hover{
+  cursor: crosshair;/*Cambia el cursor a un cursor "cruz" cuando se pasa el cursor sobre las imágenes*/
+  width: 300px;
+  opacity: 1; /*regresa la opacidad a las imagenes previamente quitadas*/
+  filter: contrast(120%); /*Aumenta el contraste de las img cuando se pasa el cursor sobre ella*/
+}

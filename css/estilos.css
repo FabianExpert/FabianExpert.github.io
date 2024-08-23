@@ -1,0 +1,313 @@
+.slider1{
+  font-weight: 900;
+  height: 100vh;
+  min-height: 575px !important;
+  background-image: url('../assets/img/slider1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider2{
+  height: 100vh;
+  min-height: 575px !important;
+  background-image: url('../assets/img/slider2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider3{
+  height: 100vh;
+  min-height: 575px !important;
+  background-image: url('../assets/img/slider3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider4{
+  height: 100vh;
+  min-height: 575px !important;
+  background-image: url('../assets/img/slider4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item {/*Centra el texto*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+#eslogan1{
+  text-shadow: 
+    -1px -1px 0px #000000, 
+    -1px 1px 0px #000000, 
+    1px -1px 0px #000000, 
+    1px 1px 0px #000000;
+}
+
+#eslogan2{
+  text-shadow: 
+    -1px -1px 0px #000000, 
+    -1px 1px 0px #000000, 
+    1px -1px 0px #000000, 
+    1px 1px 0px #000000;
+}
+
+#eslogan3{
+  text-shadow: 
+    -1px -1px 0px #000000, 
+    -1px 1px 0px #000000, 
+    1px -1px 0px #000000, 
+    1px 1px 0px #000000;
+}
+
+#eslogan4{
+  text-shadow: 
+    -1px -1px 0px #000000, 
+    -1px 1px 0px #000000, 
+    1px -1px 0px #000000, 
+    1px 1px 0px #000000;
+}
+
+.texto{
+  font-family: 'Andale Mono', monospace;
+  font-size: 20px !important;
+  text-shadow: 
+    -1px -1px 0px #FFFFFF, 
+    -1px 1px 0px #FFFFFF, 
+    1px -1px 0px #FFFFFF, 
+    1px 1px 0px #FFFFFF;
+}
+
+#barra{
+  font-family: "Courier New",monospace;
+  color: black;
+  
+}
+
+@font-face{
+  font-family: header;
+  src: url(../assets/fonts/brighton_vintage/brighton vintage.ttf);
+}
+
+.fuenteSlider{
+  font-family: "header";
+}
+
+.video {
+    border: 5px solid red;
+}
+
+footer {
+      background-color: black;
+      color: white;
+      padding: 20px 0;
+    }
+    .fa-facebook, .fa-x-twitter, .fa-instagram, .fa-youtube {
+      margin: 0 10px;
+      color: white;
+    }
+    .section {
+      padding: 50px 0;
+    }
+
+}
+
+.waves-effect.waves-light.btn {
+  background-color: #AE8462;
+}
+
+#icono{
+  text-shadow: 
+    -1px -1px 0px #FFFFFF, 
+    -1px 1px 0px #FFFFFF, 
+    1px -1px 0px #FFFFFF, 
+    1px 1px 0px #FFFFFF;
+}
+
+.blanco{
+   min-height: 200px;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("../assets/img/parallax1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../assets/img/parallax2.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("../assets/img/mision.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url("../assets/img/vision.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerr{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+  padding: 100px 0;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box:nth-child(4){
+  grid-column-start: span 2;
+}
+
+.box:nth-child(4){
+  grid-column-start: span 2;
+} 
+
+.video{
+  width: 100%;
+  height: 100%;
+}
+
+.fa-heart {
+  color: red;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#enunciado{
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+/*html,body {
+      height: 100%;
+    }
+    .pano {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      cursor: move;
+    }
+    .pano .controls {
+      position: relative;
+      top: 40%;
+    }
+    .pano .controls a {
+      position: absolute;
+      display: inline-block;
+      text-decoration: none;
+      color: #eee;
+      font-size: 3em;
+      width: 20px;
+      height: 20px;
+    }
+    .pano .controls a.left {
+      left: 10px;
+    }
+    .pano .controls a.right {
+      right: 10px;
+    }
+    .pano.moving .controls a {
+      opacity: 0.4;
+      color: #eee;
+    }*/
+
+/*
+
+codigo de hmtl
+<div class="bars__menu">
+          <span class="line1__bars-menu"></span>
+          <span class="line2__bars-menu"></span>
+          <span class="line3__bars-menu"></span>
+        </div>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bars__menu{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.bars__menu span{
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #FFFFFF;
+  margin-top: 6px;
+  transform-origin: 0px 100%;
+  transition: all 600ms;
+}
+
+.line1__bars-men{
+  transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.line3__bars-men{
+  transform: rotate(-45deg) translate(-4px, 2px);
+}
+*/
